@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    margin: 25%;
+
+}
+.container{
+    background-color: tomato;
+    height: 650px;
+    width: 500px;
+    padding: 14%;
+    z-index: 10;
+    position: relative;
+
+}
+h1{
+    text-align: left;
+    padding-left: 10px;
+    padding-top:20px;
+}
+
+.container1{
+    background-color: white;
+    height: 580px;
+    width: 300px;
+    align-self:center;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 15px;
+    text-align:justify;
+    margin-left: 100px;
+    position:sticky;
+    
+}
+
+button{
+   width: 100px;
+   margin-left: 100px;
+   padding: 10px;
+   color: white;
+   background-color: tomato;
+}
+.container2{
+    height: 580px;
+    width:300px ;
+    background-color: hwb(11 50% 3%);
+    
+
+}

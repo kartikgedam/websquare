@@ -1,0 +1,31 @@
+.container{
+background-color: black;
+height: 700px;
+width: 1500px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1fr);
+margin-left: 200px;
+
+}
+.container1{
+    margin-left: 110px;
+    display: grid;
+    height: 700px;
+    width: 700px;
+}
+.container2{
+    margin-top: -150px;
+}
+
+h3{
+    color: white;
+}
+.item1{
+    color: white;
+}
+.flag_img{
+    margin-top: -77px;
+}
+.container_div{
+    display: grid;
+}

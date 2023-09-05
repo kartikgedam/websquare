@@ -1,0 +1,145 @@
+<!-- What is HTMl  -->
+    <!-- HTML stands for Hypertext Markup Language, We use HTML to create Skeleton of our web pages.0
+
+    tags, attributes, anchor, list, tables 
+    headings - h1, h2, h3, h4, h5, h6
+    semantic = p, h1 and non-semantic = div, br
+
+    class, id
+-->
+
+<!DOCTYPE html> <!-- This file contains HTML -->
+<html> <!-- HTMl start here -->
+        <head>
+            <title>First HTML Page</title>
+            <link rel="stylesheet" href="../CSS/index.css">
+            <!-- SEO, link CSS  -->
+        </head>
+        <!-- <style>
+            div{
+                /* border-radius: 30%; */
+            }
+        </style> -->
+        <body>
+            <div>
+                <h1 id="h1-heading">I am a heading</h1>
+                <p class="para">I am a paragraph -1</p>
+                <h3 class="h3-class">I am a heading 3 </h3>
+                <h5>I am a heading 5</h5>
+                <h6>I am a heading 6</h6>
+                <h1 id="h1-heading">I am a heading</h1>
+                <p>I am a paragraph</p>
+            </div>
+
+            <button class="first-button">Click Me</button>
+
+            <br>
+
+            <div style="position: sticky; top: 0; left: 10px;">
+                <s href="https://google.com" target="_blank">Google</a>
+
+                <br>
+
+              <a href="https://portfolio-bhaskarkrp.vercel.app/" target="_blank">My website</a>
+            </div>
+
+            <div style="position: relative; border: 1px solid black;">
+                <!-- list -> ordered list and unordered list -->
+                <ol class="ordered-list">
+                    <li>Bhaskar</li>
+                    <li>Kartik</li>
+                </ol>
+
+                <ul class="unordered-list">
+                    <li>Bhaskar</li>
+                    <li>Kartik</li>
+                </ul>
+            </div>
+
+            <div>
+                <!-- Tables -->
+                <!-- heading1 | heading2 | heading3 | heading4
+                    data1    | data2    | data3    | data4 -->
+                <table class="table-container">
+                    <tr class="table-heading">
+                        <th>Food</th>
+                        <th>City</th>
+                        <th>Pin code</th>
+                    </tr>
+
+                    <tr>
+                        <td>Dosa</td>
+                        <td>Bengaluru</td>
+                        <td>560068</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pau-bhaji</td>
+                        <td>Mumbai</td>
+                        <td>784052</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="container-class" id="bio-div-id">
+                <!-- Bio -->
+                <h2>Kartik</h2>
+
+                <p>Who am I?</p>
+
+                <h4>Hoobies</h4>
+                <ul>
+                    <li>hobby 1 </li>
+                    <li>hobby 2 </li>
+                    <li>hobby 3 </li>
+                </ul>
+
+                <h4>Education</h4>
+                <table>
+                    <tr>
+                        <th>School</th>
+                        <th>Degree</th>
+                        <th>Year</th>
+                        <th>Marks in %</th>
+                    </tr>
+
+                    <tr>
+                        <td>XYZ</td>
+                        <td>ANB</td>
+                        <td>2000-2000</td>
+                        <td>100%</td>
+                    </tr>
+                </table>
+            </div>
+
+            <br>
+
+            <div class="container-class" id="form-div-id">
+                <!-- Form -->
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <input type="text" name="" id="question" placeholder="Enter your question">
+                    <!-- <p id="warning" style="display: none; font-size: 15px;">Hi</p> -->
+                    <input type="number" name="" id="phone" placeholder="Enter your mobile number">
+
+                    <input type="submit" value="Hit submit" name="" id="">
+                </form>
+            </div>
+        </body>
+
+        <script src="../JS/index.js"></script>
+
+<!-- <script >
+    In file JS
+</script> -->
+
+
+</html>
+
+
+
+<!--
+    Dom - Docoment Object Model 
+    Dom Manipulation -> change in DOM 
+    How can we achieve this? Via methods
+ -->

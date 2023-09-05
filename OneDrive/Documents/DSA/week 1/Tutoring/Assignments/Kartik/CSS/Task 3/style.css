@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(72, 68, 68);
+}
+.card1{
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 8%;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-top: 60px;
+}
+.card2{
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 8%;
+    text-align: center;
+    color: white;
+    float: left;
+    height: 375px;
+}
+.card3{
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 8%;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-top: 60px;
+}
+.title{
+    font-size: 50px;
+}
+
+.btn{
+    display: block;
+    background-color:rgba(229, 207, 14, 0.777);
+    color: white;
+    width: 185px;
+    padding:15px;
+    margin:20px 0;
+    border-radius:10px;
+}
